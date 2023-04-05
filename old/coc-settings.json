@@ -1,0 +1,4 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["css", "tsx", "ts"],
+  "rust-analyzer.server.path": "/opt/homebrew/bin/rust-analyzer"
+}
