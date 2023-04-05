@@ -26,7 +26,7 @@ require("lualine").setup{
 
 -- COMMENT
 require("nvim_comment").setup({
-	operator_mapping = "<C-/>"
+	operator_mapping = "<leader>cc"
 })
 
 -- TERMINAL SETUP
