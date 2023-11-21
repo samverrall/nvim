@@ -5,7 +5,8 @@ lsp.preset("recommended")
 lsp.ensure_installed({
 	"tsserver",
 	"gopls",
-	"eslint"
+	"eslint",
+	"rust-analyzer"
 })
 
 lsp.set_preferences({
@@ -34,4 +35,3 @@ vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
 		underline = false,
 	}
 )
-

@@ -1,5 +1,6 @@
 require("packer").startup(function(use)
 	use { "wbthomason/packer.nvim" }
+	use { "catppuccin/nvim", as = "catppuccin" }
 	use { "ellisonleao/gruvbox.nvim" }
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 	use {
@@ -32,7 +33,12 @@ require("packer").startup(function(use)
 	use "terrortylor/nvim-comment",
 	use "CreaturePhil/vim-handmade-hero",
 	use "preservim/nerdtree",
-    	use 'Luxed/ayu-vim'
+	use 'Luxed/ayu-vim',
+
+	use 'MunifTanjim/prettier.nvim',
+	use 'neovim/nvim-lspconfig',
+	use 'jose-elias-alvarez/null-ls.nvim',
+	use 'simrat39/rust-tools.nvim'
 }
 end)
 
